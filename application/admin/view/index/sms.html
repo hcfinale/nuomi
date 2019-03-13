@@ -1,0 +1,95 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<style>
+    #form-admin-add{
+        width: 60%;
+        margin: 0 auto;
+    }
+</style>
+<form class="form form-horizontal" id="form-admin-add" action="{:url('index/sendsms')}" method="post">
+    <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>发件人：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <input type="text" class="input-text" value="" placeholder="" id="adminName" name="send_name">
+        </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>手机：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <input type="text" class="input-text" value="" placeholder="" id="phone" name="send_phone">
+        </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>验证码：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <input id="yzm" value="" name="yzm" type="text" class="form-control required x164 in" placeholder="请输入接收的验证码">
+            <input id="btnSendCode" class="btn btn-default form-control" type="button" value="发送验证码">
+        </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-3">备注：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <textarea name="send_remark" cols="" rows="" class="textarea" placeholder="说点什么...100个字符以内" dragonfly="true" onkeyup="$.Huitextarealength(this,100)"></textarea>
+            <p class="textarea-numberbar"><em class="textarea-length">0</em>/100</p>
+        </div>
+    </div>
+    <div class="row cl">
+        <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+            <input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+        </div>
+    </div>
+</form>
+<!--包含头部文件-->
+{include file="public/footer" /}
+<script>
+window.onload = function(){
+    var InterValObj; //timer变量，控制时间
+    var count = 120; //间隔函数，1秒执行
+    var curCount;//当前剩余秒数
+    var code = ""; //验证码
+    var codeLength = 6;//验证码长度
+
+    $('#btnSendCode').click(function sendMessage(){
+        curCount = count;
+        var phone=$("#phone").val();//手机号码
+        var xmname=$("#adminName").val();//手机号码
+        if(phone.length == 11){
+            //产生验证码
+            for (var i = 0; i < codeLength; i++) {
+                code += parseInt(Math.random() * 9).toString();
+            }
+            //设置button效果，开始计时
+            $("#btnSendCode").attr("disabled", "true");
+            $("#btnSendCode").val("请在" + curCount + "秒内输入验证码");
+            InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
+            //向后台发送处理数据
+            $.ajax({
+                type: "post", //用POST方式传输
+                dataType: "text", //数据格式:JSON
+                url: "{:url('admin/index/smsmassage')}", //目标地址
+                data: "xmname=" + xmname + "&phone=" + phone + "&code=" + code + "&sysname=" + "南京万和IT教育",
+                error: function (XMLHttpRequest, textStatus, errorThrown) { },
+                success: function (msg){ }
+            });
+        }else{
+            alert("手机号码填写错误！");
+        }
+    });    
+    //timer处理函数
+    function SetRemainTime() {
+        if (curCount == 0) {
+            window.clearInterval(InterValObj);//停止计时器
+            $("#btnSendCode").removeAttr("disabled");//启用按钮
+            $("#btnSendCode").val("重新发送验证码");
+            code = ""; //清除验证码。如果不清除，过时间后，输入收到的验证码依然有效
+        }
+        else {
+            curCount--;
+            $("#btnSendCode").val("请在" + curCount + "秒内输入验证码");
+        }
+    }
+}
+</script>
+</body>
+</html>

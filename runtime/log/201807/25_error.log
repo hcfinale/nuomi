@@ -1,0 +1,24 @@
+[ 2018-07-25T10:45:20+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/image/upload.html
+[ error ] [1]Call to a member function move() on null[E:\WWW\nuomi\application\api\controller\Image.php:11]
+
+---------------------------------------------------------------
+[ 2018-07-25T14:23:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/test/massage.html
+[ error ] [8]未定义变量: res[E:\WWW\nuomi\application\index\controller\Test.php:21]
+
+---------------------------------------------------------------
+[ 2018-07-25T14:25:08+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/test/massage.html
+[ error ] [0]variable type error： array[E:\WWW\nuomi\thinkphp\library\think\Response.php:310]
+
+---------------------------------------------------------------
+[ 2018-07-25T14:25:34+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/test/massage.html
+[ error ] [1]Class 'app\index\controller\db' not found[E:\WWW\nuomi\application\index\controller\Test.php:19]
+
+---------------------------------------------------------------
+[ 2018-07-25T14:26:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/test/massage.html
+[ error ] [0]variable type error： array[E:\WWW\nuomi\thinkphp\library\think\Response.php:310]
+
+---------------------------------------------------------------
+[ 2018-07-25T14:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/test/massage.html
+[ error ] [0]variable type error： array[E:\WWW\nuomi\thinkphp\library\think\Response.php:310]
+
+---------------------------------------------------------------

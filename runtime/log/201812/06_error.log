@@ -1,0 +1,8 @@
+[ 2018-12-06T12:11:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'hc'@'localhost' (using password: YES)[E:\www\nuomi\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-12-06T12:16:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'hc'@'localhost' (using password: YES)[E:\www\nuomi\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------

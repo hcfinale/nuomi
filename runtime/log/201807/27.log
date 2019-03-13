@@ -1,0 +1,3336 @@
+[ 2018-07-27T09:50:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/admin/index/sms
+[ log ] www.nuomi123.com/public/index.php/admin/index/sms [运行时间：0.326019s][吞吐率：3.07req/s] [内存消耗：1,446.86kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->sms[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\sms.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:50:49+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/admin/index/
+[ log ] www.nuomi123.com/public/index.php/admin/index/ [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：1,595.15kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:50:49+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ log ] www.nuomi123.com/public/index.php/admin/index/welcome.html [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：1,389.22kb] [文件加载：42]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/admin/index/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:50:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/admin/category/index.html
+[ log ] www.nuomi123.com/public/index.php/admin/category/index.html [运行时间：0.269016s][吞吐率：3.72req/s] [内存消耗：2,573.64kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/admin/index/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ E:\WWW\nuomi\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:50:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/admin/index/map.html
+[ log ] www.nuomi123.com/public/index.php/admin/index/map.html [运行时间：0.855049s][吞吐率：1.17req/s] [内存消耗：1,392.32kb] [文件加载：43]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:50:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/admin/index/sms.html
+[ log ] www.nuomi123.com/public/index.php/admin/index/sms.html [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,447.38kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/admin/index/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->sms[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\sms.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/
+[ log ] www.nuomi123.com/public/index.php/bis/index/ [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：1,469.95kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/login/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/login/index.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,447.90kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ E:\WWW\nuomi\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:05+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/bis/login/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/login/index.html [运行时间：0.188011s][吞吐率：5.32req/s] [内存消耗：2,395.06kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nuomi123.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ E:\WWW\nuomi\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WWW\nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:08+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,682.66kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:08+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,623.48kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.149009s][吞吐率：6.71req/s] [内存消耗：2,546.11kb] [文件加载：59]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,683.14kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,623.45kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：2,394.05kb] [文件加载：57]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,683.14kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,623.45kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:41+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,546.11kb] [文件加载：59]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/default/css/ueditor.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/default/css/ueditor.css [运行时间：0.170009s][吞吐率：5.88req/s] [内存消耗：1,667.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'themes',
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/php/controller.php?action=config&&noCache=1532656302069
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/php/controller.php?action=config&&noCache=1532656302069 [运行时间：0.155009s][吞吐率：6.45req/s] [内存消耗：1,667.52kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1532656302069',
+  'geojgbiepfpcddgilmjphomafbedackp' => 'php',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/iframe.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/iframe.css [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,666.82kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'themes',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.js
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.js [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,667.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/zeroclipboard/ZeroClipboard.js
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/zeroclipboard/ZeroClipboard.js [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,667.40kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.css [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,667.51kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:45+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/category/getcategorybyparentid.html
+[ log ] www.nuomi123.com/public/index.php/api/category/getcategorybyparentid.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,238.42kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ E:\WWW\nuomi\application\api\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T09:51:56+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/city/getcitysbyparentid.html
+[ log ] www.nuomi123.com/public/index.php/api/city/getcitysbyparentid.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,233.15kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ E:\WWW\nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:45+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/sms
+[ log ] www.nuomi123.com/public/index.php/bis/index/sms [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,658.80kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/
+[ log ] www.nuomi123.com/public/index.php/bis/ [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,682.74kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,623.52kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,545.92kb] [文件加载：59]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/default/css/ueditor.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/default/css/ueditor.css [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,667.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'themes',
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/iframe.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/iframe.css [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,666.82kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'themes',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/php/controller.php?action=config&&noCache=1532663573110
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/php/controller.php?action=config&&noCache=1532663573110 [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,667.48kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1532663573110',
+  'geojgbiepfpcddgilmjphomafbedackp' => 'php',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.js
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.js [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,667.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.css [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,667.55kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/zeroclipboard/ZeroClipboard.js
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/zeroclipboard/ZeroClipboard.js [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,667.40kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pe1d4uuh3af5q8onb8e2h5i5o4',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/
+[ log ] www.nuomi123.com/public/index.php/bis/ [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,469.59kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:52:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/login/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/login/index.html [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,447.64kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ E:\WWW\nuomi\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:04+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/bis/login/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/login/index.html [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：2,394.67kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nuomi123.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ E:\WWW\nuomi\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WWW\nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,682.43kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,623.20kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:08+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,393.81kb] [文件加载：57]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/default/css/ueditor.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/default/css/ueditor.css [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,667.02kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'themes',
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/iframe.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/themes/iframe.css [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,666.53kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'themes',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/php/controller.php?action=config&&noCache=1532663589483
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/php/controller.php?action=config&&noCache=1532663589483 [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,667.24kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1532663589483',
+  'geojgbiepfpcddgilmjphomafbedackp' => 'php',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.js
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.js [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,667.05kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.css
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/codemirror/codemirror.css [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,667.24kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/zeroclipboard/ZeroClipboard.js
+[ log ] www.nuomi123.com/public/index.php/bis/location/chrome-extension://geojgbiepfpcddgilmjphomafbedackp/third-party/zeroclipboard/ZeroClipboard.js [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,667.17kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'chrome-extension:',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'geojgbiepfpcddgilmjphomafbedackp' => 'third-party',
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/
+[ log ] www.nuomi123.com/public/index.php/bis/location/ [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,690.18kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/25.0.0.127',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->index[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:13+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,682.85kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:13+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,623.25kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:14+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:14+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,393.81kb] [文件加载：57]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/
+[ log ] www.nuomi123.com/public/index.php/bis/location/ [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,690.18kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/25.0.0.127',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->index[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:20+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/city/getcitysbyparentid.html
+[ log ] www.nuomi123.com/public/index.php/api/city/getcitysbyparentid.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,233.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ E:\WWW\nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:22+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/city/getcitysbyparentid.html
+[ log ] www.nuomi123.com/public/index.php/api/city/getcitysbyparentid.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,232.29kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ E:\WWW\nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:24+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/category/getcategorybyparentid.html
+[ log ] www.nuomi123.com/public/index.php/api/category/getcategorybyparentid.html [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：2,237.13kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ E:\WWW\nuomi\application\api\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:26+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/category/getcategorybyparentid.html
+[ log ] www.nuomi123.com/public/index.php/api/category/getcategorybyparentid.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,238.35kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ E:\WWW\nuomi\application\api\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,682.85kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,623.25kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,682.85kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,623.25kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.052002s][吞吐率：19.23req/s] [内存消耗：2,393.81kb] [文件加载：57]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:53:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/
+[ log ] www.nuomi123.com/public/index.php/bis/location/ [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,690.18kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/25.0.0.127',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->index[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,682.85kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,623.25kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/index.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/index.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,683.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/index/info.html
+[ log ] www.nuomi123.com/public/index.php/bis/index/info.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,623.47kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->info[ E:\WWW\nuomi\application\bis\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:46+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/add.html
+[ log ] www.nuomi123.com/public/index.php/bis/location/add.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,545.87kb] [文件加载：59]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T11:59:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/bis/location/
+[ log ] www.nuomi123.com/public/index.php/bis/location/ [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,690.18kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/25.0.0.127',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->index[ E:\WWW\nuomi\application\bis\controller\Location.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/bis\view\location\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-27T12:00:03+08:00 ] 127.0.0.1 127.0.0.1 POST /public/index.php/api/city/getcitysbyparentid.html
+[ log ] www.nuomi123.com/public/index.php/api/city/getcitysbyparentid.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,233.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/index.php/bis/location/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8qvf32b76kjftn0ruusmuk5t37',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ E:\WWW\nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

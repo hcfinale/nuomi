@@ -1,0 +1,662 @@
+[ 2018-11-02T09:24:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ log ] www.nuomi123.com/public/ [运行时间：0.201011s][吞吐率：4.97req/s] [内存消耗：2,415.34kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:24:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ log ] www.nuomi123.com/public/ [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,414.99kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin
+[ log ] www.nuomi123.com/public/admin [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,446.74kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/welcome.html
+[ log ] www.nuomi123.com/public/admin/index/welcome.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,389.43kb] [文件加载：42]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:28:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin
+[ log ] www.nuomi123.com/public/admin [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,418.95kb] [文件加载：43]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:28:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin
+[ log ] www.nuomi123.com/public/admin [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,446.95kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:28:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/welcome.html
+[ log ] www.nuomi123.com/public/admin/index/welcome.html [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,389.43kb] [文件加载：42]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:32:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin
+[ log ] www.nuomi123.com/public/admin [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,446.95kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:32:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/welcome.html
+[ log ] www.nuomi123.com/public/admin/index/welcome.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,389.43kb] [文件加载：42]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:46:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/category/index.html
+[ log ] www.nuomi123.com/public/admin/category/index.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,425.99kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ E:\WWW\nuomi\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:46:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/map.html
+[ log ] www.nuomi123.com/public/admin/index/map.html [运行时间：0.674039s][吞吐率：1.48req/s] [内存消耗：1,392.14kb] [文件加载：43]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/sms.html
+[ log ] www.nuomi123.com/public/admin/index/sms.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,447.08kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->sms[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\sms.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:48:16+08:00 ] 127.0.0.1 127.0.0.1 POST /public/admin/index/smsmassage.html
+[ log ] www.nuomi123.com/public/admin/index/smsmassage.html [运行时间：0.130008s][吞吐率：7.69req/s] [内存消耗：1,405.43kb] [文件加载：43]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'smsmassage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '66',
+  'accept' => 'text/plain, */*; q=0.01',
+  'origin' => 'http://www.nuomi123.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.nuomi123.com/public/admin/index/sms.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+  'xmname' => '',
+  'phone' => '13851752194',
+  'code' => '510355',
+  'sysname' => '南京万和IT教育',
+)
+[ info ] [ RUN ] app\admin\controller\Index->smsmassage[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:49:10+08:00 ] 127.0.0.1 127.0.0.1 POST /public/admin/index/sendsms.html
+[ log ] www.nuomi123.com/public/admin/index/sendsms.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,390.48kb] [文件加载：42]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'sendsms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'content-length' => '221',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nuomi123.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin/index/sms.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+  'send_name' => '13851752194',
+  'send_phone' => '13851752194',
+  'yzm' => '510355',
+  'send_remark' => '这个是我发送的内容。看看能过去吗。',
+)
+[ info ] [ RUN ] app\admin\controller\Index->sendsms[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:49:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/sms.html
+[ log ] www.nuomi123.com/public/admin/index/sms.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,447.08kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->sms[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\sms.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:53:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin
+[ log ] www.nuomi123.com/public/admin [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,446.95kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:53:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/welcome.html
+[ log ] www.nuomi123.com/public/admin/index/welcome.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,389.52kb] [文件加载：42]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:53:28+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/sms.html
+[ log ] www.nuomi123.com/public/admin/index/sms.html [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,447.08kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->sms[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\sms.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-11-02T09:54:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/admin/index/sms.html
+[ log ] www.nuomi123.com/public/admin/index/sms.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,447.08kb] [文件加载：44]
+[ info ] [ LANG ] E:\WWW\nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nuomi123.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.nuomi123.com/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vmemm87mp46rt1hj476dvgkq53',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->sms[ E:\WWW\nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\nuomi\public/../application/admin\view\index\sms.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

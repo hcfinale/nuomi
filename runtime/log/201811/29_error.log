@@ -1,0 +1,40 @@
+[ 2018-11-29T10:07:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'o2o.o2o_featured' doesn't exist[E:\WWW\nuomi\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2018-11-29T10:07:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'o2o.o2o_featured' doesn't exist[E:\WWW\nuomi\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2018-11-29T10:07:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'o2o.o2o_featured' doesn't exist[E:\WWW\nuomi\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2018-11-29T10:43:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/featured/add.html
+[ error ] [0]数据表字段不存在:[update_time][E:\WWW\nuomi\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2018-11-29T10:45:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/featured/add.html
+[ error ] [0]数据表字段不存在:[create_time][E:\WWW\nuomi\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2018-11-29T10:48:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html?type=1
+[ error ] [8]A non well formed numeric value encountered[E:\WWW\nuomi\runtime\temp\8d1068c4d5ca667a686afa7eab0cf290.php:74]
+
+---------------------------------------------------------------
+[ 2018-11-29T10:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html?type=1
+[ error ] [8]A non well formed numeric value encountered[E:\WWW\nuomi\runtime\temp\8d1068c4d5ca667a686afa7eab0cf290.php:74]
+
+---------------------------------------------------------------
+[ 2018-11-29T11:00:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html
+[ error ] [1]Call to a member function appends() on array[E:\WWW\nuomi\application\common.php:73]
+
+---------------------------------------------------------------
+[ 2018-11-29T11:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html
+[ error ] [8]未定义变量: order[E:\WWW\nuomi\application\admin\controller\Featured.php:19]
+
+---------------------------------------------------------------
+[ 2018-11-29T11:01:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html
+[ error ] [8]未定义变量: order[E:\WWW\nuomi\application\admin\controller\Featured.php:19]
+
+---------------------------------------------------------------
